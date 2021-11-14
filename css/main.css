@@ -5,3 +5,38 @@
 	margin: 0 0 0 10px;
 	text-decoration: none;
 }
+.image-link{
+	text-decoration: none;
+}
+.html-blockquote{
+	padding: 2px 20px;
+	background: #ccc;
+}
+.mobydick-header{
+	text-align: center;
+	margin: 0 0 80px;
+}
+.centered-image{
+	display: block; 
+	margin: 0 auto;
+}
+.mobydick-block{
+	width: 500px; 
+	margin: 20px auto; 
+	padding: 30px; 
+	background-color: #fafafa;
+}
+.mobydick-cover{
+	float: left; 
+	margin: 0 40px 0 0;
+}
+.mobydick-blockquote{
+	font-style: italic; 
+	font-size: 20px;
+}
+.ishmael-text{
+	font-style: normal;
+	font-size: 24px;
+	font-weight: bold;
+	color: #ff0000;
+}
