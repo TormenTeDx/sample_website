@@ -3,23 +3,24 @@
 <head>
 	<title>HTML Tags</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZHJM9DKJTH"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZHJM9DKJTH"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-		  gtag('config', 'G-ZHJM9DKJTH');
-		</script>
+	  gtag('config', 'G-ZHJM9DKJTH');
+	</script>
 </head>
 <body>
 
-	<div>
-		<a href="index.html">Home</a>
-		<a href="tags.html">Tags</a>
-		<a href="moby_dick.html">Moby Dick</a>
+	<div id="main-nav" class="nav-menu">
+		<a href="index.html" style="text-decoration:none;">Home</a>
+		<a href="tags.html" class="nav-spacing">Tags</a>
+		<a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
 	</div>
 
 	<h1>Important HTML tags</h1>
@@ -155,5 +156,39 @@
 			<td><li>example</li></td>
 		</tr>
 	</table>
+
+
+	<h2>Document Tags</h2>
+
+	<table>
+		<tr>
+			<th>Tag</th>		
+			<th>Purpose</th>
+			<th>Example</th>
+		</tr>
+		<tr>
+			<td><code>html</code></td>
+			<td>Main document tag</td>
+			<td><code>&lt;html&gt;&lt;/html&gt;</code></td>
+		</tr>
+		<tr>
+			<td><code>head</code></td>
+			<td>Contains information about the website</td>
+			<td><code>&lt;head&gt;&lt;/head&gt;</code></td>
+		</tr>
+		<tr>
+			<td><code>body</code></td>
+			<td>contains content of the website</td>
+			<td><code>&lt;body&gt;&lt;/body&gt;</code></td>
+		</tr>
+		<tr>
+			<td><code>meta</code></td>
+			<td>tag which sets some meta information about the website</td>
+			<td><code>&lt;meta/&gt;</code></td>
+		</tr>
+	</table>
+
+
+
 </body>
 </html>
